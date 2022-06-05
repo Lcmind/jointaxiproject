@@ -35,7 +35,7 @@ mysqli_close($conn);
 echo "
     <script type=\"text/javascript\">
         alert(\"정상처리 되었습니다.\");
-        location.href = \"main.php\";
+        location.href = \"index.php\";
     </script>
 ";
 ?>

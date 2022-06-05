@@ -25,7 +25,7 @@
          $_SESSION['userName'] = $row['userName'];
          $_SESSION['idx'] = $row['idx'];
          echo "<script type=\"text/javascript\">alert(\"".$_SESSION["userName"]."님 환영합니다.\");</script>";
-         echo "<script>location.replace('main.php');</script>";
+         echo "<script>location.replace('index.php');</script>";
          exit;
       }
 

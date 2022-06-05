@@ -10,7 +10,7 @@
             }else{echo "
                 <script type=\"text/javascript\">
                     alert(\"관리자가 아닙니다.\");
-                    location.href = \"main.php\";
+                    location.href = \"index.php\";
                 </script>
             ";
         };

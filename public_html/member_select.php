@@ -81,7 +81,7 @@ if($e_pageNum > $total_page){
     <h2>* 관리자 페이지 *</h2>
     <p>"<?php echo $s_name; ?>"님, 안녕하세요.</p>
     <p>
-        <button onclick="location.href='main.php'" class="bar">Home</button>
+        <button onclick="location.href='index.php'" class="bar">Home</button>
         <button onclick="location.href='board_admin_list.php#about'" class="bar">게시판 관리</button>
         <button onclick="location.href='member_select.php'" class="bar">회원관리</button>
         <button onclick="location.href='logoutProcess.php'" class="bar">로그아웃</button>

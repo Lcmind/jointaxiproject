@@ -9,7 +9,7 @@
         }else{echo "
             <script type=\"text/javascript\">
                 alert(\"관리자가 아닙니다.\");
-                location.href = \"main.php\";
+                location.href = \"index.php\";
             </script>
         ";
     };
@@ -26,7 +26,7 @@
     <!-- Page Navbar -->
     <nav id="scrollspy" class="navbar page-navbar navbar-light navbar-expand-md fixed-top" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="navbar-brand" href="main.php"><strong class="text-primary">Join</strong> <span class="text-dark">Taxi</span></a>
+            <a class="navbar-brand" href="index.php"><strong class="text-primary">Join</strong> <span class="text-dark">Taxi</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -67,7 +67,7 @@
         <div class="overlay"></div>
         <div class="header-content">
           <h6>TAXI SHARING</h6>
-            <button onclick="location.href='main.php'"class="btn btn-outline-light">Main Page</button>
+            <button onclick="location.href='index.php'"class="btn btn-outline-light">Main Page</button>
 
 
 </div>

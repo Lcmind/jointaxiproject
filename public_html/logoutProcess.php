@@ -5,7 +5,7 @@
   if($result) {
 ?>
   <script>
-    location.href = "main.php";
+    location.href = "index.php";
   </script>
 <?php }
 ?>

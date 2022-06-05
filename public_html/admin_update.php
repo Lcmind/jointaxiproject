@@ -81,7 +81,7 @@ $array = mysqli_fetch_array($result);
 
     <p class="btn_wrap">
         <button type="button" class="btn" onclick="history.back()">이전으로</button>
-        <button type="button" class="btn" onclick="location.href='main.php'">홈으로</button>
+        <button type="button" class="btn" onclick="location.href='index.php'">홈으로</button>
         <button type="button" class="btn" onclick="del_check()">회원탈퇴</button>
         <button type="submit" class="btn">정보수정</button>
     </p>
