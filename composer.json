@@ -1,5 +1,5 @@
 {
-    "name":"jointaxi",
+    "type":"jointaxi",
     "license":"closed",
     "require":{
         "php" : "^7.1.3",
