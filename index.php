@@ -1,3 +1,3 @@
 <?php
- echo "hello it"
+  include_once("main.php");
  ?>
