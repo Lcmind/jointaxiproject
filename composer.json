@@ -1,6 +1,6 @@
 {
     "require": {
-        "vendor/autoload.php"
+        "dflydev/markdown":"1.0.3"
         
     }
 }
