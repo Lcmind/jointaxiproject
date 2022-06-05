@@ -6,7 +6,24 @@ namespace Composer\Autoload;
 
 class ComposerStaticInite7c5a692ff00416f22aef5ff9399667c
 {
+    public static $files = array (
+        '2cffec82183ee1cea088009cef9a6fc3' => __DIR__ . '/..' . '/ezyang/htmlpurifier/library/HTMLPurifier.composer.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
+        'T' => 
+        array (
+            'TijsVerkoyen\\CssToInlineStyles\\' => 31,
+        ),
+        'S' => 
+        array (
+            'Symfony\\Component\\CssSelector\\' => 30,
+            'Symfony\\Component\\Asset\\' => 24,
+        ),
+        'P' => 
+        array (
+            'Psr\\Container\\' => 14,
+        ),
         'M' => 
         array (
             'Michelf\\' => 8,
@@ -14,9 +31,35 @@ class ComposerStaticInite7c5a692ff00416f22aef5ff9399667c
     );
 
     public static $prefixDirsPsr4 = array (
+        'TijsVerkoyen\\CssToInlineStyles\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/tijsverkoyen/css-to-inline-styles/src',
+        ),
+        'Symfony\\Component\\CssSelector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/css-selector',
+        ),
+        'Symfony\\Component\\Asset\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/asset',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
         'Michelf\\' => 
         array (
             0 => __DIR__ . '/..' . '/michelf/php-markdown/Michelf',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'H' => 
+        array (
+            'HTMLPurifier' => 
+            array (
+                0 => __DIR__ . '/..' . '/ezyang/htmlpurifier/library',
+            ),
         ),
     );
 
@@ -29,6 +72,7 @@ class ComposerStaticInite7c5a692ff00416f22aef5ff9399667c
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInite7c5a692ff00416f22aef5ff9399667c::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInite7c5a692ff00416f22aef5ff9399667c::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInite7c5a692ff00416f22aef5ff9399667c::$prefixesPsr0;
             $loader->classMap = ComposerStaticInite7c5a692ff00416f22aef5ff9399667c::$classMap;
 
         }, null, ClassLoader::class);
