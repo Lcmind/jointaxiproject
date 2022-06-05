@@ -1,3 +1,4 @@
+<?php require 'vendor/autoload.php'; ?>
 <!DOCTYPE html>
 <?php
     $conn = mysqli_connect("localhost", "jointaxi", "1234", "joindb");
