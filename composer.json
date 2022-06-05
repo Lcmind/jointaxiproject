@@ -5,7 +5,8 @@
         "symfony/css-selector":"6.*",
         "twbs/bootstrap":"5.*",
         "symfony/asset":"6.*",
-        "tijsverkoyen/css-to-inline-styles":"2.*"
+        "tijsverkoyen/css-to-inline-styles":"2.*",
+        "ezyang/htmlpurifier":"4.*"
     }
 }
 
