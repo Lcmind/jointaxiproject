@@ -96,19 +96,19 @@ return true;
 $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
 
             if($board_time =='10분뒤'){
-              $a="(DATE_ADD(NOW(), INTERVAL 10 MINUTE))";
+              $a="(DATE_ADD(NOW(), INTERVAL 550 MINUTE))";
               //$q=mysqli_query($conn,$a);
             } elseif($board_time =='20분뒤'){
-              $a="(DATE_ADD(NOW(), INTERVAL 20 MINUTE))";
+              $a="(DATE_ADD(NOW(), INTERVAL 560 MINUTE))";
             //$q=mysqli_query($conn,$a);
           }  elseif($board_time =='30분뒤'){
-              $a="(DATE_ADD(NOW(), INTERVAL 30 MINUTE))";
+              $a="(DATE_ADD(NOW(), INTERVAL 570 MINUTE))";
             //  $q=mysqli_query($conn,$a);
             } elseif($board_time =='40분뒤'){
-              $a="(DATE_ADD(NOW(), INTERVAL 40 MINUTE))";
+              $a="(DATE_ADD(NOW(), INTERVAL 580 MINUTE))";
             //  $q=mysqli_query($conn,$a);
             } elseif($board_time =='50분뒤'){
-              $a="(DATE_ADD(NOW(), INTERVAL 50 MINUTE))";
+              $a="(DATE_ADD(NOW(), INTERVAL 590 MINUTE))";
             //  $q=mysqli_query($conn,$a);
             }
             //커넥션 객체 생성 여부 확인
