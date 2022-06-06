@@ -8,7 +8,8 @@
         "symfony/asset":"6.*",
         "tijsverkoyen/css-to-inline-styles":"2.*",
         "ezyang/htmlpurifier":"4.*",
-        "pelago/emogrifier" : "6.*"
+        "pelago/emogrifier" : "6.*",
+        "skeeks/yii2-assets-auto-compress":"1.4.*"
     }
 }
 
