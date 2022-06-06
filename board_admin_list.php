@@ -27,7 +27,7 @@
 <html lang="ko">
 <head>
     <!-- Bootstrap + Creative Design main styles -->
-   <link rel="stylesheet" href="assets/css/Join Taxi.css">
+   <link rel="stylesheet" href="Join Taxi.css">
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
@@ -62,7 +62,7 @@
                                                           <a class="nav-link btn btn-primary" href="logoutProcess.php">로그아웃</a>
                                                     </li>
                                    <li class="nav-item ml-md-4">
-                                                          <a class="nav-link btn btn-primary" href="member_update.php"><img src="assets/imgs/mypage.png" width="20" height="20"/></a>
+                                                          <a class="nav-link btn btn-primary" href="member_update.php"><img src="mypage.png" width="20" height="20"/></a>
                                                     </li>
                                                  </p>
                                                  <script language="javascript">

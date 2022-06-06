@@ -1,7 +1,7 @@
 <?php
 include "admin_session.php";
 ?>
-<link rel="stylesheet" href="assets/css/Join Taxi.css">
+<link rel="stylesheet" href="Join Taxi.css">
 <HTML>
  <HEAD>
      <META http-equiv="content-type" content="text/html; charset=utf-8">
@@ -21,7 +21,7 @@ include "admin_session.php";
                        <a class="nav-link btn btn-primary" href="logoutProcess.php">로그아웃</a>
                    </li>
                    <li class="nav-item ml-md-4">
-                       <a class="nav-link btn btn-primary" href="member_update.php"><img src="assets/imgs/mypage.png" width="20" height="20"/></a>
+                       <a class="nav-link btn btn-primary" href="member_update.php"><img src="mypage.png" width="20" height="20"/></a>
                    </li>
                </ul>
            </div>
@@ -33,7 +33,7 @@ include "admin_session.php";
           <br /><br /><br /><br /><br />
         <div style="clear:both">
           <style>img{float:middle;}</style>
-        <h2><img class="fit-picture" src="assets/imgs/join1.png" height="42"weight="38"> Only For Admin </img><img class="fit-picture" src="assets/imgs/join1.png" height="42"weight="38"></img></h2>
+        <h2><img class="fit-picture" src="join1.png" height="42"weight="38"> Only For Admin </img><img class="fit-picture" src="join1.png" height="42"weight="38"></img></h2>
         </div>
 
     <p>"<?php echo $s_name; ?>"님, 안녕하세요.</p>

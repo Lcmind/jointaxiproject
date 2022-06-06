@@ -18,7 +18,7 @@ $array = mysqli_fetch_array($result);
 
 ?>
 
-<link rel="stylesheet" href="assets/css/Join Taxi.css">
+<link rel="stylesheet" href="Join Taxi.css">
 <html>
 <HEAD>
      <META http-equiv="content-type" content="text/html; charset=utf-8">
@@ -38,7 +38,7 @@ $array = mysqli_fetch_array($result);
                        <a class="nav-link btn btn-primary" href="logoutProcess.php">로그아웃</a>
                    </li>
                    <li class="nav-item ml-md-4">
-                       <a class="nav-link btn btn-primary" href="member_update.php"><img src="assets/imgs/mypage.png" width="20" height="20"/></a>
+                       <a class="nav-link btn btn-primary" href="member_update.php"><img src="mypage.png" width="20" height="20"/></a>
                    </li>
                </ul>
            </div>

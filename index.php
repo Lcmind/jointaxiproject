@@ -69,7 +69,7 @@
 																			 <a class="nav-link btn btn-primary" href="logoutProcess.php">로그아웃</a>
 																	 </li>
                                    <li class="nav-item ml-md-4">
-																			 <a class="nav-link btn btn-primary" href="member_update.php" method="post"><img src="assets/imgs/mypage.png" width="20" height="20"/></a>
+																			 <a class="nav-link btn btn-primary" href="member_update.php" method="post"><img src="mypage.png" width="20" height="20"/></a>
 																	 </li>
 																 </p>
                              <?php }; ?>
@@ -156,7 +156,7 @@
             <div class="row">
                 <div class="col-sm-10 col-md-4 m-auto">
                     <div class="testmonial-wrapper">
-                        <img src="assets/imgs/김의겸.jpg" alt="Client Image">
+                        <img src="김의겸.jpg" alt="Client Image">
                         <h6 class="title mb-3">김의겸</h6>
                         <p>건국대학교 글로컬캠퍼스-컴퓨터공학과 3학년-201820869 <br />
                         SQL 및 게시판, 관리자 세션 관리 </p>
@@ -164,7 +164,7 @@
                 </div>
                 <div class="col-sm-10 col-md-4 m-auto">
                     <div class="testmonial-wrapper">
-                        <img src="assets/imgs/이상준.jpg" alt="Client Image">
+                        <img src="이상준.jpg" alt="Client Image">
                         <h6 class="title mb-3">이상준</h6>
                         <p>건국대학교 글로컬캠퍼스-컴퓨터공학과 3학년-201820987<br />
                         게시판 데이터 및 SQL 관리</p>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-sm-10 col-md-4 m-auto">
                     <div class="testmonial-wrapper">
-                        <img src="assets/imgs/이창민.jpg" alt="Client Image">
+                        <img src="이창민.jpg" alt="Client Image">
                         <h6 class="title mb-3">이창민</h6>
                         <p>건국대학교 글로컬캠퍼스-컴퓨터공학과 3학년-201821020<br>
                           <b>LEADER</b> - SQL, CSS, 모든페이지 전체 총괄

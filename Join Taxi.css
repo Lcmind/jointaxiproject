@@ -11181,7 +11181,7 @@ nav.page-navbar.affix .navbar-brand .text-dark {
 }
 
 .header {
-  background: #efefef url(../imgs/header.png);
+  background: #efefef url(header.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11192,7 +11192,7 @@ nav.page-navbar.affix .navbar-brand .text-dark {
   position: relative;
 }
 .header1 {
-  background: #efefef url(../imgs/노란색.png);
+  background: #efefef url(노란색.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -11297,7 +11297,7 @@ section.p-md {
 }
 
 section.has-bg-img {
-  background-image: url(../imgs/bg-img-1.jpg);
+  background-image: url(bg-img-1.jpg);
   background-size: cover;
   background-position: center;
   min-height: 450px;
@@ -11353,7 +11353,7 @@ section.height-auto {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../imgs/header.png) no-repeat center center fixed;
+  background: url(header.png) no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
   opacity: .4;

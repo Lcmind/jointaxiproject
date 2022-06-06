@@ -4,10 +4,10 @@ include "db.php";
     echo "<script>alert('잘못된 접근입니다.'); history.back();</script>";
   }else{ ?>
 <!DOCTYPE html>
-<link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+
 
 <!-- Bootstrap + Creative Design main styles -->
-<link rel="stylesheet" href="assets/css/Join Taxi.css">
+<link rel="stylesheet" href="Join Taxi.css">
 <HTML>
  <HEAD>
      <META http-equiv="content-type" content="text/html; charset=utf-8">

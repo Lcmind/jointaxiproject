@@ -1,8 +1,6 @@
 <?php require 'vendor/autoload.php'; ?>
-<link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-
 <!-- Bootstrap + Creative Design main styles -->
-<link rel="stylesheet" href="assets/css/Join Taxi.css">
+<link rel="stylesheet" href="Join Taxi.css">
 <HTML>
  <HEAD>
      <META http-equiv="content-type" content="text/html; charset=utf-8">
@@ -34,7 +32,7 @@
           <br /><br /><br /><br /><br /><br /><br  />
         <div style="clear:both">
           <style>img{float:middle;}</style>
-        <img class="fit-picture" src="assets/imgs/join1.png" height="42"weight="38"></img>
+        <img class="fit-picture" src="join1.png" height="42"weight="38"></img>
         </div>
       <form action="login_result.php" name=form method="POST" class="joinFormlogin" >
 
