@@ -25,7 +25,7 @@
 
             mysqli_close($conn);
             //헤더함수를 이용하여 리스트 페이지로 리다이렉션
-            header("Location: http://localhost/join%20taxi/join%20taxi/public_html/board_list.php"); //헤더 함수를 이용해서 리다이렉션 시킬 수 있다.
+            header("Location: board_list.php"); //헤더 함수를 이용해서 리다이렉션 시킬 수 있다.
            // echo "<script>history.forword(board_list.php)</script>"
         ?>
     </body>
