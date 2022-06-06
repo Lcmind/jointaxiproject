@@ -57,7 +57,7 @@
             <input name="phoneNum" type="text" maxlength="11" class="cellphoneNum" placeholder="전화번호">
           </div>
           <div class="textForm">
-            <input name="checkStr" type="text" maxlength="9" class="card" placeholder="본인확인문구 (1~9자리의 문자,숫자,영어)">
+            <input name="checkStr" type="text" maxlength="25" class="card" placeholder="본인확인문구 (1~25자리의 영어,숫자)">
           </div>
 <p></p>
           <input type="submit" class="btn" style="font-weight:bold;"  value="J O I N"></input>
