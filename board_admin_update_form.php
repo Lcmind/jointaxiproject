@@ -86,7 +86,7 @@
 
         <?php
             //커넥션 객체 생성 (데이터 베이스 연결)
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
             $board_no = $_GET["board_no"];
             echo $board_no."번째 글 수정 페이지<br>";
             //board 테이블을 조회하여 board_no의 값이 일치하는 행의 board_no, board_title, board_content, board_user, board_date 필드의 값을 가져오는 쿼리

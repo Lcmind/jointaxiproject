@@ -15,7 +15,7 @@
         <h1 class="display-4">board_detail.php</h1>
         <?php
             //mysql 커넥션 객체 생성
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
             //커넥션 객체 생성 여부 확인
             if($conn) {
                 echo "연결 성공<br>";

@@ -1,5 +1,5 @@
 <?php
-    $con = mysqli_connect("localhost", "jointaxi", "1234", "joindb") or die("MySQL 접속 실패!!");
+    $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
 
     //$idx = $_POST["idx"];
     $userID = $_POST["userID"];

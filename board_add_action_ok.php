@@ -12,7 +12,7 @@
         <?php
             //board_add_form.php 페이지에서 넘어온 글 번호값 저장 및 출력
 
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
             //커넥션 객체 생성 여부 확인
             //board 테이블에 입력된 값을 1행에 넣고 board_date 필드에는 현재 시간을 입력하는 쿼리
             $sql1 = "SELECT board_no from board where boardPw='$userID';";

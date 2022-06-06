@@ -4,7 +4,7 @@
   $board_no=$_GET["board_no"];
   session_start();
   $userJoin =$_GET["userJoin"];
-  $conn = mysqli_connect("localhost", "jointaxi", "1234", "joindb");
+  $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
   //$sql1 ="SELECT board_no from board where boardPw = '$userID';";
   //$board_number=mysqli_query($conn,$sql1);
   //$board_no = mysqli_fetch_array($board_number);

@@ -16,7 +16,7 @@ $phoneNum = $_POST["phoneNum"];
 
 
 /*  DB 접속 */
-$conn = mysqli_connect("localhost", "jointaxi", "1234", "joindb");
+$conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
 //$s_idx="select idx from user where idx=1;";
 //echo $s_idx;
 

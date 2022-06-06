@@ -11,7 +11,7 @@
             //board_update_form.php에서 POST 방식으로 넘어온 값 저장 및 출력
             $board_no = $_GET["board_no"];
             $userJoin = $_GET["userJoin"];
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
             /*echo "board_no : " . $board_no . "<br>";
             echo "board_title : " . $board_title . "<br>";
             echo "board_start : " . $board_start . "<br>";

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <?php
-    $conn = mysqli_connect("localhost", "jointaxi", "1234", "joindb");
+    $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
     session_start();
 
     $userID = isset($_SESSION["userID"])? $_SESSION["userID"]:"";

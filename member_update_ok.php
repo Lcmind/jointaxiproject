@@ -73,7 +73,7 @@ if(!$password==$userID){
   alert("비밀번호가 아이디와 동일합니다.");
 }*/
 /*  DB 접속 */
-$conn = mysqli_connect("localhost", "jointaxi", "1234", "joindb");
+$conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
 
 
 /* 쿼리 작성 */

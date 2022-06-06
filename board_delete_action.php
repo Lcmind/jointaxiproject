@@ -11,7 +11,7 @@
             $board_no = $_POST["board_no"];
             $board_pw = $_POST["board_pw"];
 
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
 
 
             $query = "select * from board where board_no='$board_no';";

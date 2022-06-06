@@ -20,7 +20,7 @@
             //$board_start = $_POST["board_start"];
             //$board_destination = $_POST["board_destination"];
             //$board_time = $_POST["board_time"];
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
             echo "board_no : " . $board_no . "<br>";
             echo "board_pw : " . $board_pw . "<br>";
             //echo "board_start : " . $board_start . "<br>";

@@ -18,7 +18,7 @@
             echo "board_destination : " . $board_destination . "<br>";
             echo "board_time : " . $board_time . "<br>";
             //커넥션 객체 생성 및 연결 여부 확인하기
-            $conn = mysqli_connect("localhost", "jointaxi", "1234","joindb");
+            $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
             if($conn) {
                 echo "연결 성공<br>";
             } else {
