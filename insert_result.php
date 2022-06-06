@@ -18,7 +18,7 @@
      $sql =" INSERT INTO user(userID, password, userName, phoneNum, email, checkStr, mDate)VALUES('".$userID."','".$password."','".$userName."','".$phoneNum."','".$email."','".$checkStr."','".$mDate."');";
 
 
-  $ret = mysqli_query($con, $sql);
+  $ret = mysqli_query($conn, $sql);
 
   if($ret) {
     echo "
