@@ -10,7 +10,7 @@
         "ezyang/htmlpurifier":"4.*",
         "pelago/emogrifier" : "6.*",
         "skeeks/yii2-assets-auto-compress":"1.4.*",
-        "inlinestyle/inlinestyle":"1.*"
+        "inlinestyle/inlinestyle":"1.2.*"
     }
 }
 
