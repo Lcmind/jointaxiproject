@@ -99,7 +99,7 @@ elseif (!$phoneNum !=/^[0-9]{11}$/) {
 //} else{
     $sql = "update user set password='$password', email='$email', phoneNum='$phoneNum' where userID=$userID;";
 //};
-echo $sql;
+
 // exit;
 
 
