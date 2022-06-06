@@ -187,10 +187,10 @@
                  return true; //확인이 완료되었을 때
               }
               function checkcheckStr(checkStr) {
-                  if (!checkExistData(checkStr, "문자를"))
+                  if (!checkExistData(checkStr, "영어만"))
                       return false;
 
-                  var checkStrRegExp = /^[A-Za-z0-9가-힣]{1,9}$/;
+                  var checkStrRegExp = /^[A-Za-z0-9]{1,25}$/;
                   if (!checkStrRegExp.test(checkStr)) {
                       alert("형식이 올바르지 않습니다!");
                       return false;

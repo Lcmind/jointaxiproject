@@ -159,7 +159,7 @@
                         <img src="김의겸.jpg" alt="Client Image">
                         <h6 class="title mb-3">김의겸</h6>
                         <p>건국대학교 글로컬캠퍼스-컴퓨터공학과 3학년-201820869 <br />
-                        SQL 및 게시판, 관리자 세션 관리 </p>
+                        SQL 및 게시판, 관리자 세션 관리, 서버구축 </p>
                     </div>
                 </div>
                 <div class="col-sm-10 col-md-4 m-auto">
@@ -175,7 +175,7 @@
                         <img src="이창민.jpg" alt="Client Image">
                         <h6 class="title mb-3">이창민</h6>
                         <p>건국대학교 글로컬캠퍼스-컴퓨터공학과 3학년-201821020<br>
-                          <b>LEADER</b> - SQL, CSS, 모든페이지 전체 총괄
+                          <b>LEADER</b> - SQL, CSS, 모든페이지, 전체 총괄 그리고 서버구축
                         </br></p>
                     </div>
                 </div>
