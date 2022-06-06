@@ -36,7 +36,7 @@
 
             mysqli_close($conn);
             //헤더를 이용한 리다이렉션 구현
-            header("Location: http://localhost/join%20taxi/join%20taxi/public_html/board_list.php");
+            header("Location: board_list.php");
         ?>
     </body
 </html>
