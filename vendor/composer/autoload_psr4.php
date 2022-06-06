@@ -9,6 +9,8 @@ return array(
     'TijsVerkoyen\\CssToInlineStyles\\' => array($vendorDir . '/tijsverkoyen/css-to-inline-styles/src'),
     'Symfony\\Component\\CssSelector\\' => array($vendorDir . '/symfony/css-selector'),
     'Symfony\\Component\\Asset\\' => array($vendorDir . '/symfony/asset'),
+    'Sabberworm\\CSS\\' => array($vendorDir . '/sabberworm/php-css-parser/src'),
     'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'Pelago\\Emogrifier\\' => array($vendorDir . '/pelago/emogrifier/src'),
     'Michelf\\' => array($vendorDir . '/michelf/php-markdown/Michelf'),
 );

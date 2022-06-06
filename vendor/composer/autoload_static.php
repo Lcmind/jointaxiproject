@@ -19,10 +19,12 @@ class ComposerStaticInite7c5a692ff00416f22aef5ff9399667c
         array (
             'Symfony\\Component\\CssSelector\\' => 30,
             'Symfony\\Component\\Asset\\' => 24,
+            'Sabberworm\\CSS\\' => 15,
         ),
         'P' => 
         array (
             'Psr\\Container\\' => 14,
+            'Pelago\\Emogrifier\\' => 18,
         ),
         'M' => 
         array (
@@ -43,9 +45,17 @@ class ComposerStaticInite7c5a692ff00416f22aef5ff9399667c
         array (
             0 => __DIR__ . '/..' . '/symfony/asset',
         ),
+        'Sabberworm\\CSS\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
+        ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Pelago\\Emogrifier\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/pelago/emogrifier/src',
         ),
         'Michelf\\' => 
         array (
