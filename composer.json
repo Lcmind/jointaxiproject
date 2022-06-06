@@ -1,6 +1,6 @@
 {
     "require":{
-        "php" : "^8.1.*",
+        "php" : "8.*",
         "doctrine/annotations" : "1.6.*",
         "symfony/routing" : "4.1.*",
         "symfony/debug" : "4.1.*",
