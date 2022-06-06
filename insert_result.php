@@ -11,7 +11,7 @@
   $mDate = date("Y-m-j H:j:s");
 
   $query = "SELECT userID FROM user where userID='{$userID}'";
-   $result = $con->query($query);
+   $result = $conn->query($query);
    $num = $result->num_rows;
    if($num > 0) { echo "<script>alert('학번이 중복됩니다.');history.back(-1);</script>"; exit; }
    else {
