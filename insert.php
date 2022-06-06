@@ -48,7 +48,7 @@
             <input name="password1" type="password"maxlength="12" class="pw" placeholder="비밀번호 확인">
           </div>
           <div class="textForm">
-            <input name="userName" type="text" class="Name" placeholder="이름">
+            <input name="userName" type="text" class="Name" placeholder="이름(영문)">
           </div>
            <div class="textForm">
             <input name="email" type="text" class="email" placeholder="이메일">
@@ -165,7 +165,7 @@
                   if (!checkExistData(userName, "이름을"))
                       return false;
 
-                  var nameRegExp = /^[가-힣]{2,4}$/;
+                  var nameRegExp = /^[a-zA-z]{2,20}$/;
                   if (!nameRegExp.test(userName)) {
                       alert("이름이 올바르지 않습니다.");
                       return false;
