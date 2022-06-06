@@ -189,7 +189,7 @@
         <div class="container">
             <h1>연락</h1>
             <p class="mb-5">사이트 구성에 있어 필요한 사항이나 피드백은 이쪽으로 연락부탁드립니다.
-					<strong><br>>회원탈퇴 문의 또한 메일로 연락부탁드립니다.<</strong></p>
+					
 
             <!-- Contact form -->
             <form class="gform" action="https://script.google.com/macros/s/AKfycbzlkiinFDeaYISg_O89sVvGosg0FxXdoedv5VRu/exec" method="POST" data-email="">
