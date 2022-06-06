@@ -5,7 +5,7 @@
 
   $userID = isset($_SESSION["userID"])? $_SESSION["userID"]:"";
   $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
-  $board_no = "SELECT board_no from board where boardPw=$userID;";
+  $board_no = "SELECT board_no from board ;";
   $boardnoresult= mysqli_query($conn,$board_no);
   $boardCount = mysqli_fetch_array($boardnoresult);
 
