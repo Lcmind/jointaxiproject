@@ -19,7 +19,7 @@
    
 
     <!-- Bootstrap + Creative Design main styles -->
-	<link rel="stylesheet" href="assets/css/Join Taxi.css">
+	<link rel="stylesheet" href="Join Taxi.css">
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="#home">
