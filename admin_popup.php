@@ -13,7 +13,7 @@
   //$sqlCount = "SELECT count(userjoin) FROM user where userjoin='$boardCount[board_no]';";
 //  $resultCount = mysqli_query($conn,$sqlCount);
 
-  $sql = "SELECT userID, userName, phoneNum FROM user where userJoin ='$boardCount['board_no']'";
+  $sql = "SELECT userID, userName, phoneNum FROM user where userJoin ='$boardCount[board_no]'";
   $result = mysqli_query($conn,$sql);
 ?>
 <!DOCTYPE html PUBLIC>
