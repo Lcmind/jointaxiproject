@@ -1,3 +1,17 @@
+
+<?php
+    session_start();
+      $idx = isset($_SESSION["idx"])? $_SESSION["idx"]:"";
+    $userID = isset($_SESSION["userID"])? $_SESSION["userID"]:"";
+    if($idx == 1){
+        }else{echo "
+            <script type=\"text/javascript\">
+                alert(\"관리자가 아닙니다.\");
+                location.href = \"index.php\";
+            </script>
+        ";
+    };
+    ?>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
