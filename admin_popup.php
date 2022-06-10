@@ -1,7 +1,7 @@
 
 <?php
 
-$conn = mysqli_connect("localhost", "root", "1234", "joindb");
+$conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
 $board_no = $_GET["board_no"];
 $board_no1 = "SELECT board_no from board where board_no=$board_no;";
 $boardnoresult= mysqli_query($conn,$board_no1);
