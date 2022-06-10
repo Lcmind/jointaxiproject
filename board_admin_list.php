@@ -205,7 +205,7 @@
                                       <?php
 
 
-                                          echo "<td><a href='admin_popup.php' onclick='showPopup(); return false;'>참여자</a></td>";
+echo "<td><a href='admin_popup.php?board_no=".$board["board_no"]."'>참여자</a></td>";
                                           echo "<td><a href='board_admin_update_form.php?board_no=".$board["board_no"]."'>수정</a></td>";
                                           echo "<td><a href='board_admin_delete_form.php?board_no=".$board["board_no"]."'>삭제</a></td>";
 
