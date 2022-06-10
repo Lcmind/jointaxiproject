@@ -1,5 +1,15 @@
 <?php
-
+    session_start();
+    $idx = isset($_SESSION["idx"])? $_SESSION["idx"]:"";
+  $userID = isset($_SESSION["userID"])? $_SESSION["userID"]:"";
+  if($idx == 1){
+      }else{echo "
+          <script type=\"text/javascript\">
+              alert(\"관리자가 아닙니다.\");
+              location.href = \"index.php\";
+          </script>
+      ";
+  };
 $u_idx = $_GET["idx"];
 /* DB 연결 */
 $conn = mysqli_connect("us-cdbr-east-05.cleardb.net", "b2309899f63726", "fc8f7b8f", "heroku_d98212802736d5a");
